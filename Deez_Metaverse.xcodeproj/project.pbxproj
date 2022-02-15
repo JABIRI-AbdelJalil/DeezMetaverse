@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176C6D9E27BAA6F6002D6B3D /* Deez_MetaverseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6D9D27BAA6F6002D6B3D /* Deez_MetaverseApp.swift */; };
+		176C6DA027BAA6F6002D6B3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6D9F27BAA6F6002D6B3D /* ContentView.swift */; };
+		176C6DA227BAA6FA002D6B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176C6DA127BAA6FA002D6B3D /* Assets.xcassets */; };
+		176C6DA527BAA6FA002D6B3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176C6DA427BAA6FA002D6B3D /* Preview Assets.xcassets */; };
+		176C6DAF27BAA6FA002D6B3D /* Deez_MetaverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6DAE27BAA6FA002D6B3D /* Deez_MetaverseTests.swift */; };
+		176C6DB927BAA6FA002D6B3D /* Deez_MetaverseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6DB827BAA6FA002D6B3D /* Deez_MetaverseUITests.swift */; };
+		176C6DBB27BAA6FA002D6B3D /* Deez_MetaverseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6DBA27BAA6FA002D6B3D /* Deez_MetaverseUITestsLaunchTests.swift */; };
+		176C6DCC27BAB132002D6B3D /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 176C6DC927BAB132002D6B3D /* toy_robot_vintage.usdz */; };
+		176C6DCD27BAB132002D6B3D /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 176C6DCA27BAB132002D6B3D /* toy_biplane.usdz */; };
+		176C6DCE27BAB132002D6B3D /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 176C6DCB27BAB132002D6B3D /* chair_swan.usdz */; };
+		1784D5C827BAB3AD0017F84A /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5C727BAB3AD0017F84A /* ControlView.swift */; };
+		1784D5CA27BAC2440017F84A /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5C927BAC2440017F84A /* BrowseView.swift */; };
+		1784D5CC27BAC6CF0017F84A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5CB27BAC6CF0017F84A /* Model.swift */; };
+		1784D5CE27BBAA1B0017F84A /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5CD27BBAA1B0017F84A /* PlacementSettings.swift */; };
+		1784D5D027BBAFC70017F84A /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5CF27BBAFC70017F84A /* PlacementView.swift */; };
+		1784D5D327BBB6A80017F84A /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 1784D5D227BBB6A80017F84A /* FocusEntity */; };
+		1784D5D527BBB71E0017F84A /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5D427BBB71E0017F84A /* CustomARView.swift */; };
+		1784D5D727BBC14D0017F84A /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1784D5D627BBC14D0017F84A /* tv_retro.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		176C6DAB27BAA6FA002D6B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 176C6D9227BAA6F6002D6B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176C6D9927BAA6F6002D6B3D;
+			remoteInfo = Deez_Metaverse;
+		};
+		176C6DB527BAA6FA002D6B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 176C6D9227BAA6F6002D6B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176C6D9927BAA6F6002D6B3D;
+			remoteInfo = Deez_Metaverse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176C6D9A27BAA6F6002D6B3D /* Deez_Metaverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deez_Metaverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		176C6D9D27BAA6F6002D6B3D /* Deez_MetaverseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deez_MetaverseApp.swift; sourceTree = "<group>"; };
+		176C6D9F27BAA6F6002D6B3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		176C6DA127BAA6FA002D6B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		176C6DA427BAA6FA002D6B3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		176C6DAA27BAA6FA002D6B3D /* Deez_MetaverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Deez_MetaverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		176C6DAE27BAA6FA002D6B3D /* Deez_MetaverseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deez_MetaverseTests.swift; sourceTree = "<group>"; };
+		176C6DB427BAA6FA002D6B3D /* Deez_MetaverseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Deez_MetaverseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		176C6DB827BAA6FA002D6B3D /* Deez_MetaverseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deez_MetaverseUITests.swift; sourceTree = "<group>"; };
+		176C6DBA27BAA6FA002D6B3D /* Deez_MetaverseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deez_MetaverseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		176C6DC727BAA92C002D6B3D /* Deez-Metaverse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Deez-Metaverse-Info.plist"; sourceTree = SOURCE_ROOT; };
+		176C6DC927BAB132002D6B3D /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_robot_vintage.usdz; path = ../../../../../Downloads/toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		176C6DCA27BAB132002D6B3D /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_biplane.usdz; path = ../../../../../Downloads/toy_biplane.usdz; sourceTree = "<group>"; };
+		176C6DCB27BAB132002D6B3D /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = chair_swan.usdz; path = ../../../../../Downloads/chair_swan.usdz; sourceTree = "<group>"; };
+		1784D5C727BAB3AD0017F84A /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		1784D5C927BAC2440017F84A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		1784D5CB27BAC6CF0017F84A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1784D5CD27BBAA1B0017F84A /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		1784D5CF27BBAFC70017F84A /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		1784D5D427BBB71E0017F84A /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		1784D5D627BBC14D0017F84A /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = tv_retro.usdz; path = ../../../../../Downloads/tv_retro.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		176C6D9727BAA6F6002D6B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1784D5D327BBB6A80017F84A /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176C6DA727BAA6FA002D6B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176C6DB127BAA6FA002D6B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176C6D9127BAA6F6002D6B3D = {
+			isa = PBXGroup;
+			children = (
+				176C6D9C27BAA6F6002D6B3D /* Deez_Metaverse */,
+				176C6DAD27BAA6FA002D6B3D /* Deez_MetaverseTests */,
+				176C6DB727BAA6FA002D6B3D /* Deez_MetaverseUITests */,
+				176C6D9B27BAA6F6002D6B3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		176C6D9B27BAA6F6002D6B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176C6D9A27BAA6F6002D6B3D /* Deez_Metaverse.app */,
+				176C6DAA27BAA6FA002D6B3D /* Deez_MetaverseTests.xctest */,
+				176C6DB427BAA6FA002D6B3D /* Deez_MetaverseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176C6D9C27BAA6F6002D6B3D /* Deez_Metaverse */ = {
+			isa = PBXGroup;
+			children = (
+				176C6DC727BAA92C002D6B3D /* Deez-Metaverse-Info.plist */,
+				176C6D9D27BAA6F6002D6B3D /* Deez_MetaverseApp.swift */,
+				176C6D9F27BAA6F6002D6B3D /* ContentView.swift */,
+				1784D5D427BBB71E0017F84A /* CustomARView.swift */,
+				1784D5C727BAB3AD0017F84A /* ControlView.swift */,
+				1784D5C927BAC2440017F84A /* BrowseView.swift */,
+				1784D5CF27BBAFC70017F84A /* PlacementView.swift */,
+				1784D5CD27BBAA1B0017F84A /* PlacementSettings.swift */,
+				1784D5CB27BAC6CF0017F84A /* Model.swift */,
+				176C6DA127BAA6FA002D6B3D /* Assets.xcassets */,
+				176C6DC827BAAFE6002D6B3D /* 3D Assets */,
+				176C6DA327BAA6FA002D6B3D /* Preview Content */,
+			);
+			path = Deez_Metaverse;
+			sourceTree = "<group>";
+		};
+		176C6DA327BAA6FA002D6B3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				176C6DA427BAA6FA002D6B3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		176C6DAD27BAA6FA002D6B3D /* Deez_MetaverseTests */ = {
+			isa = PBXGroup;
+			children = (
+				176C6DAE27BAA6FA002D6B3D /* Deez_MetaverseTests.swift */,
+			);
+			path = Deez_MetaverseTests;
+			sourceTree = "<group>";
+		};
+		176C6DB727BAA6FA002D6B3D /* Deez_MetaverseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				176C6DB827BAA6FA002D6B3D /* Deez_MetaverseUITests.swift */,
+				176C6DBA27BAA6FA002D6B3D /* Deez_MetaverseUITestsLaunchTests.swift */,
+			);
+			path = Deez_MetaverseUITests;
+			sourceTree = "<group>";
+		};
+		176C6DC827BAAFE6002D6B3D /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1784D5D627BBC14D0017F84A /* tv_retro.usdz */,
+				176C6DCB27BAB132002D6B3D /* chair_swan.usdz */,
+				176C6DCA27BAB132002D6B3D /* toy_biplane.usdz */,
+				176C6DC927BAB132002D6B3D /* toy_robot_vintage.usdz */,
+			);
+			path = "3D Assets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		176C6D9927BAA6F6002D6B3D /* Deez_Metaverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176C6DBE27BAA6FA002D6B3D /* Build configuration list for PBXNativeTarget "Deez_Metaverse" */;
+			buildPhases = (
+				176C6D9627BAA6F6002D6B3D /* Sources */,
+				176C6D9727BAA6F6002D6B3D /* Frameworks */,
+				176C6D9827BAA6F6002D6B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deez_Metaverse;
+			packageProductDependencies = (
+				1784D5D227BBB6A80017F84A /* FocusEntity */,
+			);
+			productName = Deez_Metaverse;
+			productReference = 176C6D9A27BAA6F6002D6B3D /* Deez_Metaverse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		176C6DA927BAA6FA002D6B3D /* Deez_MetaverseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176C6DC127BAA6FA002D6B3D /* Build configuration list for PBXNativeTarget "Deez_MetaverseTests" */;
+			buildPhases = (
+				176C6DA627BAA6FA002D6B3D /* Sources */,
+				176C6DA727BAA6FA002D6B3D /* Frameworks */,
+				176C6DA827BAA6FA002D6B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176C6DAC27BAA6FA002D6B3D /* PBXTargetDependency */,
+			);
+			name = Deez_MetaverseTests;
+			productName = Deez_MetaverseTests;
+			productReference = 176C6DAA27BAA6FA002D6B3D /* Deez_MetaverseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		176C6DB327BAA6FA002D6B3D /* Deez_MetaverseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176C6DC427BAA6FA002D6B3D /* Build configuration list for PBXNativeTarget "Deez_MetaverseUITests" */;
+			buildPhases = (
+				176C6DB027BAA6FA002D6B3D /* Sources */,
+				176C6DB127BAA6FA002D6B3D /* Frameworks */,
+				176C6DB227BAA6FA002D6B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176C6DB627BAA6FA002D6B3D /* PBXTargetDependency */,
+			);
+			name = Deez_MetaverseUITests;
+			productName = Deez_MetaverseUITests;
+			productReference = 176C6DB427BAA6FA002D6B3D /* Deez_MetaverseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		176C6D9227BAA6F6002D6B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					176C6D9927BAA6F6002D6B3D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					176C6DA927BAA6FA002D6B3D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 176C6D9927BAA6F6002D6B3D;
+					};
+					176C6DB327BAA6FA002D6B3D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 176C6D9927BAA6F6002D6B3D;
+					};
+				};
+			};
+			buildConfigurationList = 176C6D9527BAA6F6002D6B3D /* Build configuration list for PBXProject "Deez_Metaverse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 176C6D9127BAA6F6002D6B3D;
+			packageReferences = (
+				1784D5D127BBB6A80017F84A /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = 176C6D9B27BAA6F6002D6B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				176C6D9927BAA6F6002D6B3D /* Deez_Metaverse */,
+				176C6DA927BAA6FA002D6B3D /* Deez_MetaverseTests */,
+				176C6DB327BAA6FA002D6B3D /* Deez_MetaverseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176C6D9827BAA6F6002D6B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1784D5D727BBC14D0017F84A /* tv_retro.usdz in Resources */,
+				176C6DA527BAA6FA002D6B3D /* Preview Assets.xcassets in Resources */,
+				176C6DA227BAA6FA002D6B3D /* Assets.xcassets in Resources */,
+				176C6DCD27BAB132002D6B3D /* toy_biplane.usdz in Resources */,
+				176C6DCE27BAB132002D6B3D /* chair_swan.usdz in Resources */,
+				176C6DCC27BAB132002D6B3D /* toy_robot_vintage.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176C6DA827BAA6FA002D6B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176C6DB227BAA6FA002D6B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		176C6D9627BAA6F6002D6B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1784D5CE27BBAA1B0017F84A /* PlacementSettings.swift in Sources */,
+				1784D5CC27BAC6CF0017F84A /* Model.swift in Sources */,
+				1784D5CA27BAC2440017F84A /* BrowseView.swift in Sources */,
+				176C6DA027BAA6F6002D6B3D /* ContentView.swift in Sources */,
+				1784D5C827BAB3AD0017F84A /* ControlView.swift in Sources */,
+				176C6D9E27BAA6F6002D6B3D /* Deez_MetaverseApp.swift in Sources */,
+				1784D5D527BBB71E0017F84A /* CustomARView.swift in Sources */,
+				1784D5D027BBAFC70017F84A /* PlacementView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176C6DA627BAA6FA002D6B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176C6DAF27BAA6FA002D6B3D /* Deez_MetaverseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176C6DB027BAA6FA002D6B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176C6DB927BAA6FA002D6B3D /* Deez_MetaverseUITests.swift in Sources */,
+				176C6DBB27BAA6FA002D6B3D /* Deez_MetaverseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		176C6DAC27BAA6FA002D6B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176C6D9927BAA6F6002D6B3D /* Deez_Metaverse */;
+			targetProxy = 176C6DAB27BAA6FA002D6B3D /* PBXContainerItemProxy */;
+		};
+		176C6DB627BAA6FA002D6B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176C6D9927BAA6F6002D6B3D /* Deez_Metaverse */;
+			targetProxy = 176C6DB527BAA6FA002D6B3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		176C6DBC27BAA6FA002D6B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		176C6DBD27BAA6FA002D6B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		176C6DBF27BAA6FA002D6B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Deez_Metaverse/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RP7849SP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deez-Metaverse-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use augmentend Reality, this app needs access to your camera !";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "\"\" arkit";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salaheddine.sample.Deez-Metaverse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		176C6DC027BAA6FA002D6B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Deez_Metaverse/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RP7849SP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deez-Metaverse-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use augmentend Reality, this app needs access to your camera !";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "\"\" arkit";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salaheddine.sample.Deez-Metaverse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		176C6DC227BAA6FA002D6B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RP7849SP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salaheddine.sample.Deez-MetaverseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deez_Metaverse.app/Deez_Metaverse";
+			};
+			name = Debug;
+		};
+		176C6DC327BAA6FA002D6B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RP7849SP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salaheddine.sample.Deez-MetaverseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deez_Metaverse.app/Deez_Metaverse";
+			};
+			name = Release;
+		};
+		176C6DC527BAA6FA002D6B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RP7849SP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salaheddine.sample.Deez-MetaverseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Deez_Metaverse;
+			};
+			name = Debug;
+		};
+		176C6DC627BAA6FA002D6B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RP7849SP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salaheddine.sample.Deez-MetaverseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Deez_Metaverse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		176C6D9527BAA6F6002D6B3D /* Build configuration list for PBXProject "Deez_Metaverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176C6DBC27BAA6FA002D6B3D /* Debug */,
+				176C6DBD27BAA6FA002D6B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176C6DBE27BAA6FA002D6B3D /* Build configuration list for PBXNativeTarget "Deez_Metaverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176C6DBF27BAA6FA002D6B3D /* Debug */,
+				176C6DC027BAA6FA002D6B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176C6DC127BAA6FA002D6B3D /* Build configuration list for PBXNativeTarget "Deez_MetaverseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176C6DC227BAA6FA002D6B3D /* Debug */,
+				176C6DC327BAA6FA002D6B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176C6DC427BAA6FA002D6B3D /* Build configuration list for PBXNativeTarget "Deez_MetaverseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176C6DC527BAA6FA002D6B3D /* Debug */,
+				176C6DC627BAA6FA002D6B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1784D5D127BBB6A80017F84A /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1784D5D227BBB6A80017F84A /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1784D5D127BBB6A80017F84A /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 176C6D9227BAA6F6002D6B3D /* Project object */;
+}

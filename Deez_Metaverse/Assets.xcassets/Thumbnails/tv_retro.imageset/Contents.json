@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tv_retro.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
