@@ -78,14 +78,16 @@ struct Models {
     
     init() {
         // Adding objects
-        let chair = Model(name: "chair_swan", category: .chair, scaleCompensation: 5.0/100)
-        let biplane = Model(name: "toy_biplane", category: .toy, scaleCompensation: 5.0/100)
-        let robot = Model(name: "toy_robot_vintage", category: .robot, scaleCompensation: 5.0/100)
-        let tv = Model(name: "tv_retro", category: .table, scaleCompensation: 5.0/100)
+        let chair = Model(name: "chair_swan", category: .chair, scaleCompensation: 50.0/100)
+        let biplane = Model(name: "toy_biplane", category: .toy, scaleCompensation: 50.0/100)
+        let robot = Model(name: "toy_robot_vintage", category: .robot, scaleCompensation: 50.0/100)
+        let tv = Model(name: "tv_retro", category: .table, scaleCompensation: 50.0/100)
+        let robott = Model(name: "tv_retro", category: .robot, scaleCompensation: 50.0/100)
+        let tvv = Model(name: "toy_robot_vintage", category: .table, scaleCompensation: 50.0/100)
 
 
         
-        self.all += [chair, biplane, robot, tv]
+        self.all += [chair, biplane, robot, tv, tvv, robott]
     }
     
     func get(category: ModelCategory) -> [Model] {

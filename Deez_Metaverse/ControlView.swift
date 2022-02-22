@@ -69,12 +69,12 @@ struct ControlButtonBar: View {
             ControlButton(systemIconName: "clock.fill") {
                 print("MostRecentlyPlaced button pressed.")
             }
-            
             Spacer()
             
             // Settings button.
             ControlButton(systemIconName: "slider.horizontal.3") {
                 print("Settings button pressed.")
+              
             }
             
             Spacer()
