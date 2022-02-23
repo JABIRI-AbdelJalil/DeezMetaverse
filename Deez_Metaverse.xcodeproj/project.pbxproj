@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		175F310727BFD36400651F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175F310627BFD36400651F01 /* ViewController.swift */; };
-		175F310927BFD44F00651F01 /* character in Resources */ = {isa = PBXBuildFile; fileRef = 175F310827BFD44F00651F01 /* character */; };
 		176C6D9E27BAA6F6002D6B3D /* Deez_MetaverseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6D9D27BAA6F6002D6B3D /* Deez_MetaverseApp.swift */; };
 		176C6DA027BAA6F6002D6B3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6D9F27BAA6F6002D6B3D /* ContentView.swift */; };
 		176C6DA227BAA6FA002D6B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176C6DA127BAA6FA002D6B3D /* Assets.xcassets */; };
@@ -16,6 +14,9 @@
 		176C6DAF27BAA6FA002D6B3D /* Deez_MetaverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6DAE27BAA6FA002D6B3D /* Deez_MetaverseTests.swift */; };
 		176C6DB927BAA6FA002D6B3D /* Deez_MetaverseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6DB827BAA6FA002D6B3D /* Deez_MetaverseUITests.swift */; };
 		176C6DBB27BAA6FA002D6B3D /* Deez_MetaverseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6DBA27BAA6FA002D6B3D /* Deez_MetaverseUITestsLaunchTests.swift */; };
+		176C6DCC27BAB132002D6B3D /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 176C6DC927BAB132002D6B3D /* toy_robot_vintage.usdz */; };
+		176C6DCD27BAB132002D6B3D /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 176C6DCA27BAB132002D6B3D /* toy_biplane.usdz */; };
+		176C6DCE27BAB132002D6B3D /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 176C6DCB27BAB132002D6B3D /* chair_swan.usdz */; };
 		1784D5C827BAB3AD0017F84A /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5C727BAB3AD0017F84A /* ControlView.swift */; };
 		1784D5CA27BAC2440017F84A /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5C927BAC2440017F84A /* BrowseView.swift */; };
 		1784D5CC27BAC6CF0017F84A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5CB27BAC6CF0017F84A /* Model.swift */; };
@@ -23,10 +24,7 @@
 		1784D5D027BBAFC70017F84A /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5CF27BBAFC70017F84A /* PlacementView.swift */; };
 		1784D5D327BBB6A80017F84A /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 1784D5D227BBB6A80017F84A /* FocusEntity */; };
 		1784D5D527BBB71E0017F84A /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5D427BBB71E0017F84A /* CustomARView.swift */; };
-		17F0E5D827BE7784000A8C3A /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 17F0E5D427BE7783000A8C3A /* toy_robot_vintage.usdz */; };
-		17F0E5D927BE7784000A8C3A /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 17F0E5D527BE7783000A8C3A /* chair_swan.usdz */; };
-		17F0E5DA27BE7784000A8C3A /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 17F0E5D627BE7784000A8C3A /* toy_biplane.usdz */; };
-		17F0E5DB27BE7784000A8C3A /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 17F0E5D727BE7784000A8C3A /* tv_retro.usdz */; };
+		1784D5D727BBC14D0017F84A /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1784D5D627BBC14D0017F84A /* tv_retro.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		175F310627BFD36400651F01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		175F310827BFD44F00651F01 /* character */ = {isa = PBXFileReference; lastKnownFileType = folder; name = character; path = "../../../Downloads/CapturingBodyMotionIn3D (1)/BodyDetection/character"; sourceTree = "<group>"; };
 		176C6D9A27BAA6F6002D6B3D /* Deez_Metaverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deez_Metaverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		176C6D9D27BAA6F6002D6B3D /* Deez_MetaverseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deez_MetaverseApp.swift; sourceTree = "<group>"; };
 		176C6D9F27BAA6F6002D6B3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,16 +56,16 @@
 		176C6DB827BAA6FA002D6B3D /* Deez_MetaverseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deez_MetaverseUITests.swift; sourceTree = "<group>"; };
 		176C6DBA27BAA6FA002D6B3D /* Deez_MetaverseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deez_MetaverseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		176C6DC727BAA92C002D6B3D /* Deez-Metaverse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Deez-Metaverse-Info.plist"; sourceTree = SOURCE_ROOT; };
+		176C6DC927BAB132002D6B3D /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_robot_vintage.usdz; path = ../../../../../Downloads/toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		176C6DCA27BAB132002D6B3D /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_biplane.usdz; path = ../../../../../Downloads/toy_biplane.usdz; sourceTree = "<group>"; };
+		176C6DCB27BAB132002D6B3D /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = chair_swan.usdz; path = ../../../../../Downloads/chair_swan.usdz; sourceTree = "<group>"; };
 		1784D5C727BAB3AD0017F84A /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		1784D5C927BAC2440017F84A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		1784D5CB27BAC6CF0017F84A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		1784D5CD27BBAA1B0017F84A /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
 		1784D5CF27BBAFC70017F84A /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
 		1784D5D427BBB71E0017F84A /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
-		17F0E5D427BE7783000A8C3A /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_robot_vintage.usdz; path = ../../../../Downloads/toy_robot_vintage.usdz; sourceTree = "<group>"; };
-		17F0E5D527BE7783000A8C3A /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = chair_swan.usdz; path = ../../../../Downloads/chair_swan.usdz; sourceTree = "<group>"; };
-		17F0E5D627BE7784000A8C3A /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_biplane.usdz; path = ../../../../Downloads/toy_biplane.usdz; sourceTree = "<group>"; };
-		17F0E5D727BE7784000A8C3A /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = tv_retro.usdz; path = ../../../../Downloads/tv_retro.usdz; sourceTree = "<group>"; };
+		1784D5D627BBC14D0017F84A /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = tv_retro.usdz; path = ../../../../../Downloads/tv_retro.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +119,6 @@
 			children = (
 				176C6DC727BAA92C002D6B3D /* Deez-Metaverse-Info.plist */,
 				176C6D9D27BAA6F6002D6B3D /* Deez_MetaverseApp.swift */,
-				175F310627BFD36400651F01 /* ViewController.swift */,
 				176C6D9F27BAA6F6002D6B3D /* ContentView.swift */,
 				1784D5D427BBB71E0017F84A /* CustomARView.swift */,
 				1784D5C727BAB3AD0017F84A /* ControlView.swift */,
@@ -131,7 +126,6 @@
 				1784D5CF27BBAFC70017F84A /* PlacementView.swift */,
 				1784D5CD27BBAA1B0017F84A /* PlacementSettings.swift */,
 				1784D5CB27BAC6CF0017F84A /* Model.swift */,
-				175F310827BFD44F00651F01 /* character */,
 				176C6DA127BAA6FA002D6B3D /* Assets.xcassets */,
 				176C6DC827BAAFE6002D6B3D /* 3D Assets */,
 				176C6DA327BAA6FA002D6B3D /* Preview Content */,
@@ -167,10 +161,10 @@
 		176C6DC827BAAFE6002D6B3D /* 3D Assets */ = {
 			isa = PBXGroup;
 			children = (
-				17F0E5D527BE7783000A8C3A /* chair_swan.usdz */,
-				17F0E5D627BE7784000A8C3A /* toy_biplane.usdz */,
-				17F0E5D427BE7783000A8C3A /* toy_robot_vintage.usdz */,
-				17F0E5D727BE7784000A8C3A /* tv_retro.usdz */,
+				1784D5D627BBC14D0017F84A /* tv_retro.usdz */,
+				176C6DCB27BAB132002D6B3D /* chair_swan.usdz */,
+				176C6DCA27BAB132002D6B3D /* toy_biplane.usdz */,
+				176C6DC927BAB132002D6B3D /* toy_robot_vintage.usdz */,
 			);
 			path = "3D Assets";
 			sourceTree = "<group>";
@@ -285,13 +279,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F0E5DB27BE7784000A8C3A /* tv_retro.usdz in Resources */,
+				1784D5D727BBC14D0017F84A /* tv_retro.usdz in Resources */,
 				176C6DA527BAA6FA002D6B3D /* Preview Assets.xcassets in Resources */,
-				17F0E5DA27BE7784000A8C3A /* toy_biplane.usdz in Resources */,
 				176C6DA227BAA6FA002D6B3D /* Assets.xcassets in Resources */,
-				175F310927BFD44F00651F01 /* character in Resources */,
-				17F0E5D927BE7784000A8C3A /* chair_swan.usdz in Resources */,
-				17F0E5D827BE7784000A8C3A /* toy_robot_vintage.usdz in Resources */,
+				176C6DCD27BAB132002D6B3D /* toy_biplane.usdz in Resources */,
+				176C6DCE27BAB132002D6B3D /* chair_swan.usdz in Resources */,
+				176C6DCC27BAB132002D6B3D /* toy_robot_vintage.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +312,6 @@
 				1784D5CE27BBAA1B0017F84A /* PlacementSettings.swift in Sources */,
 				1784D5CC27BAC6CF0017F84A /* Model.swift in Sources */,
 				1784D5CA27BAC2440017F84A /* BrowseView.swift in Sources */,
-				175F310727BFD36400651F01 /* ViewController.swift in Sources */,
 				176C6DA027BAA6F6002D6B3D /* ContentView.swift in Sources */,
 				1784D5C827BAB3AD0017F84A /* ControlView.swift in Sources */,
 				176C6D9E27BAA6F6002D6B3D /* Deez_MetaverseApp.swift in Sources */,
@@ -482,8 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: abdel.1998.jalil@gmail.com (323JG63L4T)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Deez_Metaverse/Preview Content\"";
@@ -496,7 +487,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "\"\" arkit";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -518,8 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: abdel.1998.jalil@gmail.com (323JG63L4T)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Deez_Metaverse/Preview Content\"";
@@ -532,7 +521,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "\"\" arkit";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
