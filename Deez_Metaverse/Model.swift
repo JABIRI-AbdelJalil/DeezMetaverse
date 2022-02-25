@@ -9,7 +9,9 @@ import SwiftUI
 import RealityKit
 import Combine
 
-enum ModelCategory: CaseIterable {
+enum ModelCategory: String, CaseIterable {
+    
+    case shoes
     case table
     case chair
     case toy
@@ -18,6 +20,8 @@ enum ModelCategory: CaseIterable {
     var label: String {
         get {
             switch self {
+            case .shoes:
+                return "Shoes"
             case .table:
                 return "Tables"
             case .chair:
@@ -33,10 +37,11 @@ enum ModelCategory: CaseIterable {
 }
 
 
-class Model {
+class Model: ObservableObject, Identifiable {
+    var id: String = UUID().uuidString
     var name: String
     var category: ModelCategory
-    var thumbnail: UIImage
+    @Published var thumbnail: UIImage
     var modelEntity: ModelEntity?
     var scaleCompensation: Float
     
@@ -45,52 +50,40 @@ class Model {
     init(name: String, category: ModelCategory, scaleCompensation: Float = 1.0) {
         self.name = name
         self.category = category
-        self.thumbnail = UIImage(named: name) ?? UIImage(systemName: "photo")!
+        self.thumbnail = UIImage(systemName: "photo")!
         self.scaleCompensation = scaleCompensation
+        
+        FirebaseStorageHelper.asyncDownloadtoFilesystem(relativePath: "thumbnails/\(self.name).png") { localUrl in
+            do {
+                let imageData = try Data(contentsOf: localUrl)
+                self.thumbnail = UIImage(data: imageData) ?? self.thumbnail
+            } catch {
+                print("Error loading image: \(error.localizedDescription)")
+            }
+        }
     }
     
     //async method to  load modelEntity
     func asyncLoadModelEntity() {
-        let filename = self.name + ".usdz"
-        
-        self.cancellable = ModelEntity.loadModelAsync(named: filename)
-            .sink(receiveCompletion: { loadCompletion in
-                
-                switch loadCompletion {
-                case.failure(let error) : print("Unable to load modelEntity for \(filename). Error: \(error.localizedDescription)")
-                case.finished:
-                    break
-                }
-                
-            }, receiveValue: { modelEntity in
-                
-                self.modelEntity = modelEntity
-                self.modelEntity?.scale *= self.scaleCompensation
-                
-                print("modelEntity for \(self.name) has been loaded.")
-                
-            })
+        FirebaseStorageHelper.asyncDownloadtoFilesystem(relativePath: "models/\(self.name).usdz") { localUrl in
+            self.cancellable = ModelEntity.loadModelAsync(contentsOf: localUrl)
+                .sink(receiveCompletion: { loadCompletion in
+                    
+                    switch loadCompletion {
+                    case.failure(let error) : print("Unable to load modelEntity for \(self.name). Error: \(error.localizedDescription)")
+                    case.finished:
+                        break
+                    }
+                    
+                }, receiveValue: { modelEntity in
+                    
+                    self.modelEntity = modelEntity
+                    self.modelEntity?.scale *= self.scaleCompensation
+                    
+                    print("modelEntity for \(self.name) has been loaded.")
+                    
+                })
+        }
     }
 }
 
-struct Models {
-    var all: [Model] = []
-    
-    init() {
-        // Adding objects
-        let chair = Model(name: "chair_swan", category: .chair, scaleCompensation: 50.0/100)
-        let biplane = Model(name: "toy_biplane", category: .toy, scaleCompensation: 50.0/100)
-        let robot = Model(name: "toy_robot_vintage", category: .robot, scaleCompensation: 50.0/100)
-        let tv = Model(name: "tv_retro", category: .table, scaleCompensation: 50.0/100)
-        let robott = Model(name: "tv_retro", category: .robot, scaleCompensation: 50.0/100)
-        let tvv = Model(name: "toy_robot_vintage", category: .table, scaleCompensation: 50.0/100)
-
-
-        
-        self.all += [chair, biplane, robot, tv, tvv, robott]
-    }
-    
-    func get(category: ModelCategory) -> [Model] {
-        return all.filter( {$0.category == category})
-    }
-}
