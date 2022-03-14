@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Deez_Metaverse.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>30FF8ABA7148332B6BA5E09AF2C7ED37C0868300</string>
+				<key>dateExpires</key>
+				<string>14/3/2023</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>899PUGGF2D.deez.david.dm.dmApp</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>899PUGGF2D</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>899PUGGF2D.deez.david.dm.dmApp</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Deez_Metaverse.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>83ccc3ae-ba3f-4146-a74e-fb275cb86a05</string>
+				<key>dateExpires</key>
+				<string>14/3/2023</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: deez.david.dm.dmApp</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>899PUGGF2D</string>
+				<key>name</key>
+				<string>David Mcdermott</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

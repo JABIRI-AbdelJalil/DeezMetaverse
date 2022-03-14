@@ -1,0 +1,6 @@
+framework module Pods_Deez_MetaverseTests {
+  umbrella header "Pods-Deez_MetaverseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

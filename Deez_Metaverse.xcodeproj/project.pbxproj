@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		175F310727BFD36400651F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175F310627BFD36400651F01 /* ViewController.swift */; };
 		176C6D9E27BAA6F6002D6B3D /* Deez_MetaverseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6D9D27BAA6F6002D6B3D /* Deez_MetaverseApp.swift */; };
 		176C6DA027BAA6F6002D6B3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C6D9F27BAA6F6002D6B3D /* ContentView.swift */; };
 		176C6DA227BAA6FA002D6B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176C6DA127BAA6FA002D6B3D /* Assets.xcassets */; };
@@ -21,23 +22,13 @@
 		1784D5D027BBAFC70017F84A /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5CF27BBAFC70017F84A /* PlacementView.swift */; };
 		1784D5D327BBB6A80017F84A /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 1784D5D227BBB6A80017F84A /* FocusEntity */; };
 		1784D5D527BBB71E0017F84A /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784D5D427BBB71E0017F84A /* CustomARView.swift */; };
-		9D630ECA27C686A600EF347E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D630EC927C686A600EF347E /* View+Extensions.swift */; };
-		9D630ECC27C68B3C00EF347E /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D630ECB27C68B3C00EF347E /* SessionSettings.swift */; };
-		9D630ECE27C68C4000EF347E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D630ECD27C68C4000EF347E /* SettingsView.swift */; };
-		9D630ED127C77F2800EF347E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9D630ED027C77F2800EF347E /* FirebaseAuth */; };
-		9D630ED327C77F2800EF347E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9D630ED227C77F2800EF347E /* FirebaseFirestore */; };
-		9D630ED527C77F2800EF347E /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 9D630ED427C77F2800EF347E /* FirebaseFirestoreSwift-Beta */; };
-		9D630ED727C77F2800EF347E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9D630ED627C77F2800EF347E /* FirebaseStorage */; };
-		9D630ED927C77F2800EF347E /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 9D630ED827C77F2800EF347E /* FirebaseStorageSwift-Beta */; };
-		9D630EDD27C77FBD00EF347E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D630EDC27C77FBD00EF347E /* GoogleService-Info.plist */; };
-		9D630EDE27C77FBD00EF347E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D630EDC27C77FBD00EF347E /* GoogleService-Info.plist */; };
-		9D630EDF27C77FBD00EF347E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D630EDC27C77FBD00EF347E /* GoogleService-Info.plist */; };
-		9D630EE127C78D0500EF347E /* ModelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D630EE027C78D0500EF347E /* ModelsViewModel.swift */; };
-		9D630EE227C78D0500EF347E /* ModelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D630EE027C78D0500EF347E /* ModelsViewModel.swift */; };
-		9D630EE327C78D0500EF347E /* ModelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D630EE027C78D0500EF347E /* ModelsViewModel.swift */; };
-		9D630EE527C7927500EF347E /* FirebaseStorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D630EE427C7927500EF347E /* FirebaseStorageHelper.swift */; };
-		9D630EE627C7927500EF347E /* FirebaseStorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D630EE427C7927500EF347E /* FirebaseStorageHelper.swift */; };
-		9D630EE727C7927500EF347E /* FirebaseStorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D630EE427C7927500EF347E /* FirebaseStorageHelper.swift */; };
+		7786DAD87D4C9875C2CC228C /* Pods_Deez_MetaverseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5581DDD723359FB7F5911 /* Pods_Deez_MetaverseTests.framework */; };
+		9D78E18427DF569C008134A3 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9D78E18127DF569C008134A3 /* toy_robot_vintage.usdz */; };
+		9D78E18527DF569C008134A3 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9D78E18227DF569C008134A3 /* toy_biplane.usdz */; };
+		9D78E18627DF569C008134A3 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9D78E18327DF569C008134A3 /* chair_swan.usdz */; };
+		9D78E18827DF56B3008134A3 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9D78E18727DF56B3008134A3 /* tv_retro.usdz */; };
+		C11C6A89E0AA7E5CD98F6C13 /* Pods_Deez_Metaverse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1D92DD9FD93354A5CD6347 /* Pods_Deez_Metaverse.framework */; };
+		F3D52DCBAEF69012B30B0BCD /* Pods_Deez_Metaverse_Deez_MetaverseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E812FB02A2F5FEC1F4E1C49 /* Pods_Deez_Metaverse_Deez_MetaverseUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		175F310627BFD36400651F01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		176C6D9A27BAA6F6002D6B3D /* Deez_Metaverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deez_Metaverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		176C6D9D27BAA6F6002D6B3D /* Deez_MetaverseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deez_MetaverseApp.swift; sourceTree = "<group>"; };
 		176C6D9F27BAA6F6002D6B3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,12 +67,19 @@
 		1784D5CD27BBAA1B0017F84A /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
 		1784D5CF27BBAFC70017F84A /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
 		1784D5D427BBB71E0017F84A /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
-		9D630EC927C686A600EF347E /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
-		9D630ECB27C68B3C00EF347E /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
-		9D630ECD27C68C4000EF347E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		9D630EDC27C77FBD00EF347E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9D630EE027C78D0500EF347E /* ModelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsViewModel.swift; sourceTree = "<group>"; };
-		9D630EE427C7927500EF347E /* FirebaseStorageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageHelper.swift; sourceTree = "<group>"; };
+		1FD11F650EDB1CB0FE45A126 /* Pods-Deez_MetaverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deez_MetaverseTests.debug.xcconfig"; path = "Target Support Files/Pods-Deez_MetaverseTests/Pods-Deez_MetaverseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D1C4CED0491EF26E4C74D1D /* Pods-Deez_Metaverse-Deez_MetaverseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deez_Metaverse-Deez_MetaverseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Deez_Metaverse-Deez_MetaverseUITests/Pods-Deez_Metaverse-Deez_MetaverseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49126FFF2528B1FD782A4EB4 /* Pods-Deez_Metaverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deez_Metaverse.release.xcconfig"; path = "Target Support Files/Pods-Deez_Metaverse/Pods-Deez_Metaverse.release.xcconfig"; sourceTree = "<group>"; };
+		6FC032ECFBD4052908E47885 /* Pods-Deez_Metaverse-Deez_MetaverseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deez_Metaverse-Deez_MetaverseUITests.release.xcconfig"; path = "Target Support Files/Pods-Deez_Metaverse-Deez_MetaverseUITests/Pods-Deez_Metaverse-Deez_MetaverseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C1D92DD9FD93354A5CD6347 /* Pods_Deez_Metaverse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deez_Metaverse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F5581DDD723359FB7F5911 /* Pods_Deez_MetaverseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deez_MetaverseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D78E18127DF569C008134A3 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		9D78E18227DF569C008134A3 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		9D78E18327DF569C008134A3 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		9D78E18727DF56B3008134A3 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = tv_retro.usdz; path = "../../../../Desktop/dmAPP/Deez_Metaverse/3D Assets/tv_retro.usdz"; sourceTree = "<group>"; };
+		9E812FB02A2F5FEC1F4E1C49 /* Pods_Deez_Metaverse_Deez_MetaverseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deez_Metaverse_Deez_MetaverseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5115EED3BE415DDD9ABF5E6 /* Pods-Deez_MetaverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deez_MetaverseTests.release.xcconfig"; path = "Target Support Files/Pods-Deez_MetaverseTests/Pods-Deez_MetaverseTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE215E7D939D57293FEE47B9 /* Pods-Deez_Metaverse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deez_Metaverse.debug.xcconfig"; path = "Target Support Files/Pods-Deez_Metaverse/Pods-Deez_Metaverse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1784D5D327BBB6A80017F84A /* FocusEntity in Frameworks */,
-				9D630ED527C77F2800EF347E /* FirebaseFirestoreSwift-Beta in Frameworks */,
-				9D630ED127C77F2800EF347E /* FirebaseAuth in Frameworks */,
-				9D630ED727C77F2800EF347E /* FirebaseStorage in Frameworks */,
-				9D630ED327C77F2800EF347E /* FirebaseFirestore in Frameworks */,
-				9D630ED927C77F2800EF347E /* FirebaseStorageSwift-Beta in Frameworks */,
+				C11C6A89E0AA7E5CD98F6C13 /* Pods_Deez_Metaverse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7786DAD87D4C9875C2CC228C /* Pods_Deez_MetaverseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D52DCBAEF69012B30B0BCD /* Pods_Deez_Metaverse_Deez_MetaverseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0780D84363D38DE8DB2329A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE215E7D939D57293FEE47B9 /* Pods-Deez_Metaverse.debug.xcconfig */,
+				49126FFF2528B1FD782A4EB4 /* Pods-Deez_Metaverse.release.xcconfig */,
+				2D1C4CED0491EF26E4C74D1D /* Pods-Deez_Metaverse-Deez_MetaverseUITests.debug.xcconfig */,
+				6FC032ECFBD4052908E47885 /* Pods-Deez_Metaverse-Deez_MetaverseUITests.release.xcconfig */,
+				1FD11F650EDB1CB0FE45A126 /* Pods-Deez_MetaverseTests.debug.xcconfig */,
+				F5115EED3BE415DDD9ABF5E6 /* Pods-Deez_MetaverseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		176C6D9127BAA6F6002D6B3D = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +131,8 @@
 				176C6DAD27BAA6FA002D6B3D /* Deez_MetaverseTests */,
 				176C6DB727BAA6FA002D6B3D /* Deez_MetaverseUITests */,
 				176C6D9B27BAA6F6002D6B3D /* Products */,
+				0780D84363D38DE8DB2329A8 /* Pods */,
+				69C5DC79FDF336AAFB218241 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,20 +151,16 @@
 			children = (
 				176C6DC727BAA92C002D6B3D /* Deez-Metaverse-Info.plist */,
 				176C6D9D27BAA6F6002D6B3D /* Deez_MetaverseApp.swift */,
+				175F310627BFD36400651F01 /* ViewController.swift */,
 				176C6D9F27BAA6F6002D6B3D /* ContentView.swift */,
 				1784D5D427BBB71E0017F84A /* CustomARView.swift */,
 				1784D5C727BAB3AD0017F84A /* ControlView.swift */,
 				1784D5C927BAC2440017F84A /* BrowseView.swift */,
 				1784D5CF27BBAFC70017F84A /* PlacementView.swift */,
-				9D630ECD27C68C4000EF347E /* SettingsView.swift */,
 				1784D5CD27BBAA1B0017F84A /* PlacementSettings.swift */,
-				9D630ECB27C68B3C00EF347E /* SessionSettings.swift */,
 				1784D5CB27BAC6CF0017F84A /* Model.swift */,
-				9D630EE027C78D0500EF347E /* ModelsViewModel.swift */,
-				9D630EE427C7927500EF347E /* FirebaseStorageHelper.swift */,
-				9D630EC927C686A600EF347E /* View+Extensions.swift */,
-				9D630EDC27C77FBD00EF347E /* GoogleService-Info.plist */,
 				176C6DA127BAA6FA002D6B3D /* Assets.xcassets */,
+				176C6DC827BAAFE6002D6B3D /* 3D Assets */,
 				176C6DA327BAA6FA002D6B3D /* Preview Content */,
 			);
 			path = Deez_Metaverse;
@@ -183,6 +191,27 @@
 			path = Deez_MetaverseUITests;
 			sourceTree = "<group>";
 		};
+		176C6DC827BAAFE6002D6B3D /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9D78E18327DF569C008134A3 /* chair_swan.usdz */,
+				9D78E18227DF569C008134A3 /* toy_biplane.usdz */,
+				9D78E18127DF569C008134A3 /* toy_robot_vintage.usdz */,
+				9D78E18727DF56B3008134A3 /* tv_retro.usdz */,
+			);
+			path = "3D Assets";
+			sourceTree = "<group>";
+		};
+		69C5DC79FDF336AAFB218241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C1D92DD9FD93354A5CD6347 /* Pods_Deez_Metaverse.framework */,
+				9E812FB02A2F5FEC1F4E1C49 /* Pods_Deez_Metaverse_Deez_MetaverseUITests.framework */,
+				96F5581DDD723359FB7F5911 /* Pods_Deez_MetaverseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 176C6DBE27BAA6FA002D6B3D /* Build configuration list for PBXNativeTarget "Deez_Metaverse" */;
 			buildPhases = (
+				9605161136D6B4FB1F14B92A /* [CP] Check Pods Manifest.lock */,
 				176C6D9627BAA6F6002D6B3D /* Sources */,
 				176C6D9727BAA6F6002D6B3D /* Frameworks */,
 				176C6D9827BAA6F6002D6B3D /* Resources */,
@@ -201,11 +231,6 @@
 			name = Deez_Metaverse;
 			packageProductDependencies = (
 				1784D5D227BBB6A80017F84A /* FocusEntity */,
-				9D630ED027C77F2800EF347E /* FirebaseAuth */,
-				9D630ED227C77F2800EF347E /* FirebaseFirestore */,
-				9D630ED427C77F2800EF347E /* FirebaseFirestoreSwift-Beta */,
-				9D630ED627C77F2800EF347E /* FirebaseStorage */,
-				9D630ED827C77F2800EF347E /* FirebaseStorageSwift-Beta */,
 			);
 			productName = Deez_Metaverse;
 			productReference = 176C6D9A27BAA6F6002D6B3D /* Deez_Metaverse.app */;
@@ -215,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 176C6DC127BAA6FA002D6B3D /* Build configuration list for PBXNativeTarget "Deez_MetaverseTests" */;
 			buildPhases = (
+				A598ACE6F5859C99176ACCB8 /* [CP] Check Pods Manifest.lock */,
 				176C6DA627BAA6FA002D6B3D /* Sources */,
 				176C6DA727BAA6FA002D6B3D /* Frameworks */,
 				176C6DA827BAA6FA002D6B3D /* Resources */,
@@ -233,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 176C6DC427BAA6FA002D6B3D /* Build configuration list for PBXNativeTarget "Deez_MetaverseUITests" */;
 			buildPhases = (
+				01B7090F40F35ABFE77D9851 /* [CP] Check Pods Manifest.lock */,
 				176C6DB027BAA6FA002D6B3D /* Sources */,
 				176C6DB127BAA6FA002D6B3D /* Frameworks */,
 				176C6DB227BAA6FA002D6B3D /* Resources */,
@@ -281,7 +308,6 @@
 			mainGroup = 176C6D9127BAA6F6002D6B3D;
 			packageReferences = (
 				1784D5D127BBB6A80017F84A /* XCRemoteSwiftPackageReference "FocusEntity" */,
-				9D630ECF27C77F2800EF347E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 176C6D9B27BAA6F6002D6B3D /* Products */;
 			projectDirPath = "";
@@ -299,9 +325,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D78E18827DF56B3008134A3 /* tv_retro.usdz in Resources */,
 				176C6DA527BAA6FA002D6B3D /* Preview Assets.xcassets in Resources */,
 				176C6DA227BAA6FA002D6B3D /* Assets.xcassets in Resources */,
-				9D630EDD27C77FBD00EF347E /* GoogleService-Info.plist in Resources */,
+				9D78E18527DF569C008134A3 /* toy_biplane.usdz in Resources */,
+				9D78E18627DF569C008134A3 /* chair_swan.usdz in Resources */,
+				9D78E18427DF569C008134A3 /* toy_robot_vintage.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +338,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D630EDE27C77FBD00EF347E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,11 +345,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D630EDF27C77FBD00EF347E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01B7090F40F35ABFE77D9851 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deez_Metaverse-Deez_MetaverseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9605161136D6B4FB1F14B92A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deez_Metaverse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A598ACE6F5859C99176ACCB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deez_MetaverseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		176C6D9627BAA6F6002D6B3D /* Sources */ = {
@@ -329,18 +425,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1784D5CE27BBAA1B0017F84A /* PlacementSettings.swift in Sources */,
-				9D630ECC27C68B3C00EF347E /* SessionSettings.swift in Sources */,
-				9D630ECA27C686A600EF347E /* View+Extensions.swift in Sources */,
 				1784D5CC27BAC6CF0017F84A /* Model.swift in Sources */,
-				9D630EE127C78D0500EF347E /* ModelsViewModel.swift in Sources */,
 				1784D5CA27BAC2440017F84A /* BrowseView.swift in Sources */,
+				175F310727BFD36400651F01 /* ViewController.swift in Sources */,
 				176C6DA027BAA6F6002D6B3D /* ContentView.swift in Sources */,
 				1784D5C827BAB3AD0017F84A /* ControlView.swift in Sources */,
 				176C6D9E27BAA6F6002D6B3D /* Deez_MetaverseApp.swift in Sources */,
 				1784D5D527BBB71E0017F84A /* CustomARView.swift in Sources */,
-				9D630EE527C7927500EF347E /* FirebaseStorageHelper.swift in Sources */,
 				1784D5D027BBAFC70017F84A /* PlacementView.swift in Sources */,
-				9D630ECE27C68C4000EF347E /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D630EE227C78D0500EF347E /* ModelsViewModel.swift in Sources */,
-				9D630EE627C7927500EF347E /* FirebaseStorageHelper.swift in Sources */,
 				176C6DAF27BAA6FA002D6B3D /* Deez_MetaverseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,9 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D630EE727C7927500EF347E /* FirebaseStorageHelper.swift in Sources */,
 				176C6DB927BAA6FA002D6B3D /* Deez_MetaverseUITests.swift in Sources */,
-				9D630EE327C78D0500EF347E /* ModelsViewModel.swift in Sources */,
 				176C6DBB27BAA6FA002D6B3D /* Deez_MetaverseUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -487,7 +575,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -499,6 +587,7 @@
 		};
 		176C6DBF27BAA6FA002D6B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE215E7D939D57293FEE47B9 /* Pods-Deez_Metaverse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -524,7 +613,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Abdel-Jalil";
+				PRODUCT_BUNDLE_IDENTIFIER = deez.david.dm.dmApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -535,6 +624,7 @@
 		};
 		176C6DC027BAA6FA002D6B3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49126FFF2528B1FD782A4EB4 /* Pods-Deez_Metaverse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -560,7 +650,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Abdel-Jalil";
+				PRODUCT_BUNDLE_IDENTIFIER = deez.david.dm.dmApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -571,12 +661,13 @@
 		};
 		176C6DC227BAA6FA002D6B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD11F650EDB1CB0FE45A126 /* Pods-Deez_MetaverseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZUF9NHY53D;
+				DEVELOPMENT_TEAM = 8RP7849SP8;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -591,12 +682,13 @@
 		};
 		176C6DC327BAA6FA002D6B3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5115EED3BE415DDD9ABF5E6 /* Pods-Deez_MetaverseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZUF9NHY53D;
+				DEVELOPMENT_TEAM = 8RP7849SP8;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -611,11 +703,12 @@
 		};
 		176C6DC527BAA6FA002D6B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1C4CED0491EF26E4C74D1D /* Pods-Deez_Metaverse-Deez_MetaverseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZUF9NHY53D;
+				DEVELOPMENT_TEAM = 8RP7849SP8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salaheddine.sample.Deez-MetaverseUITests";
@@ -629,11 +722,12 @@
 		};
 		176C6DC627BAA6FA002D6B3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC032ECFBD4052908E47885 /* Pods-Deez_Metaverse-Deez_MetaverseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZUF9NHY53D;
+				DEVELOPMENT_TEAM = 8RP7849SP8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salaheddine.sample.Deez-MetaverseUITests";
@@ -695,14 +789,6 @@
 				kind = branch;
 			};
 		};
-		9D630ECF27C77F2800EF347E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -710,31 +796,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1784D5D127BBB6A80017F84A /* XCRemoteSwiftPackageReference "FocusEntity" */;
 			productName = FocusEntity;
-		};
-		9D630ED027C77F2800EF347E /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9D630ECF27C77F2800EF347E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		9D630ED227C77F2800EF347E /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9D630ECF27C77F2800EF347E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		9D630ED427C77F2800EF347E /* FirebaseFirestoreSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9D630ECF27C77F2800EF347E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseFirestoreSwift-Beta";
-		};
-		9D630ED627C77F2800EF347E /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9D630ECF27C77F2800EF347E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-		9D630ED827C77F2800EF347E /* FirebaseStorageSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9D630ECF27C77F2800EF347E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseStorageSwift-Beta";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

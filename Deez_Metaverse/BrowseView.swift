@@ -14,7 +14,6 @@ struct BrowseView: View {
         NavigationView {
             ScrollView(showsIndicators: false) {
                 // Gridviews for thumbnails
-                RecentsGrid(showBrowse: $showBrowse)
                 ModelsByCategoryGrid(showBrowse: $showBrowse )
             }
             .navigationBarTitle(Text("Browse"), displayMode: .large)
@@ -28,51 +27,20 @@ struct BrowseView: View {
     }
 }
 
-struct RecentsGrid: View {
-    @EnvironmentObject var placementSettings: PlacementSettings
-    @Binding var showBrowse: Bool
-
-    
-    var body: some View {
-        if !self.placementSettings.recentlyPlaced.isEmpty {
-            HorizontalGrid(showBrowse: $showBrowse, title: "Recents", items: getRecentsUniqueOrdered() )
-        }
-    }
-    
-    func getRecentsUniqueOrdered() -> [Model] {
-        var recentsUniqueOrderedArray: [Model] = []
-        var modelNameSet : Set<String> = []
-        
-        for model in self.placementSettings.recentlyPlaced.reversed() {
-            
-            if !modelNameSet.contains(model.name) {
-                recentsUniqueOrderedArray.append(model)
-                modelNameSet.insert(model.name)
-            }
-        }
-        
-        return recentsUniqueOrderedArray
-    }
-}
-
-
 struct ModelsByCategoryGrid: View {
     @Binding var showBrowse : Bool
 
-    @ObservedObject private var viewModel = ModelsViewModel()
+    let models = Models()
     
     var body: some View {
         VStack {
             ForEach(ModelCategory.allCases, id :  \.self) { category in
                 
                 // Only display grid if category contains items
-                if let modelsByCategory = viewModel.models.filter({$0.category == category}) {
+                if let modelsByCategory = models.get(category: category) {
                     HorizontalGrid(showBrowse: $showBrowse , title: category.label, items: modelsByCategory)
                 }
             }
-        }
-        .onAppear(){
-            self.viewModel.fetchData()
         }
     }
 }
@@ -96,7 +64,7 @@ struct HorizontalGrid: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHGrid(rows: gridItemLayout, spacing: 30) {
-                    ForEach(0..<items.count, id: \.self) { index in
+                    ForEach(0..<items.count) { index in
                         
                         let model = items[index]
                         
@@ -118,7 +86,7 @@ struct HorizontalGrid: View {
 }
 
 struct ItemButton: View {
-    @ObservedObject var model: Model
+    let model: Model
     let action: () -> Void
     
     var body: some View {
